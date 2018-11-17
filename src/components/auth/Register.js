@@ -10,9 +10,29 @@ import {
 } from "semantic-ui-react"
 
 class Register extends React.Component {
-  constructor() {}
   render() {
-    return <div>REGISTER</div>
+    return (
+      <Grid textAlign="center" verticalAlign="middle">
+        <Grid.Column style={{ maxWidth: 450 }}>
+          <Header as="h2" icon color="orange" textAlign="center">
+            <Icon name="puzzle piece" color="orange">
+              Register for DevChat
+            </Icon>
+          </Header>
+          <Form size="large">
+            <Segment stacked>
+              <Form.Input
+                fluid
+                name="username"
+                icon="user"
+                iconPosition="left"
+                placeholder="Username"
+              />
+            </Segment>
+          </Form>
+        </Grid.Column>
+      </Grid>
+    )
   }
 }
 
