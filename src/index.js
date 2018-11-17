@@ -6,6 +6,10 @@ import Login from "./components/auth/Login"
 import Register from "./components/auth/Register"
 import registerServiceWorker from "./registerServiceWorker"
 
+// UI Sementic Styling
+import "semantic-ui-css/semantic.min.css"
+import "./style/global.css"
+
 import { BrowserRouter as Router, Switch, Route } from "react-router-dom"
 
 const Root = () => (
