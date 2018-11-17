@@ -1,15 +1,18 @@
-import React from 'react'
+import React from "react"
+import {
+  Grid,
+  Form,
+  Segment,
+  Button,
+  Header,
+  Message,
+  Icon
+} from "semantic-ui-react"
 
 class Register extends React.Component {
-  constructor() {
-
-  }
+  constructor() {}
   render() {
-    return (
-      <div>
-        REGISTER
-      </div>
-    )
+    return <div>REGISTER</div>
   }
 }
 
